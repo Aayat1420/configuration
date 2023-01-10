@@ -1,5 +1,9 @@
 test.name
 
+spring:
+  jooq:
+    sql-dialect: postgres
+
 datasource:
   enabled: true
 
