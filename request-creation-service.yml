@@ -1,4 +1,5 @@
-test.name
+test:
+  name: abc
 
 spring: 
   jooq: 
