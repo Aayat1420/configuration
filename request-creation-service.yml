@@ -1,15 +1,15 @@
 test.name
 
-spring:
-  jooq:
+spring: 
+  jooq: 
     sql-dialect: postgres
 
-datasource:
+datasource: 
   enabled: true
 
-datasourceprop:
-  props:
-    default:
+datasourceprop: 
+  props: 
+    default: 
       driver-class-name: org.postgresql.Driver
       url: jdbc:postgresql://127.0.0.1:5432/test
       username: postgres
