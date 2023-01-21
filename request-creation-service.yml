@@ -16,5 +16,5 @@ datasourceprop:
       username: postgres
       password: root
       
-WORKFLOW_URL: http://localhost:8087/api/execute-workflow
+WORKFLOW_URL: http://lworkflow-service/api/execute-workflow
 WORKFLOW_SLEEPTIME: 1000      
