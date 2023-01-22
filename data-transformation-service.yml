@@ -1,0 +1,20 @@
+test:
+  name: abc
+
+spring: 
+  jooq: 
+    sql-dialect: postgres
+
+datasource: 
+  enabled: true
+
+datasourceprop: 
+  props: 
+    default: 
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://127.0.0.1:5432/test
+      username: postgres
+      password: root
+      
+WORKFLOW_URL: http://workflow-service/api/execute-workflow
+WORKFLOW_SLEEPTIME: 1000      
