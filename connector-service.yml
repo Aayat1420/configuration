@@ -1,11 +1,20 @@
-server:
-  port: 0
+test:
+  name: abc
 
-spring:
-  application:
-    name: connector-service
+spring: 
+  jooq: 
+    sql-dialect: postgres
 
-eureka:
-  client:
-    serviceurl:
-      defaultZone: http://localhost:8762/eureka
+datasource: 
+  enabled: true
+
+datasourceprop: 
+  props: 
+    default: 
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://127.0.0.1:5432/test
+      username: postgres
+      password: root
+      
+WORKFLOW_URL: http://workflow-service/api/execute-workflow
+WORKFLOW_SLEEPTIME: 1000 
