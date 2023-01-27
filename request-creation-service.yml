@@ -12,7 +12,7 @@ datasourceprop:
   props: 
     default: 
       driver-class-name: org.postgresql.Driver
-      url: jdbc:postgresql://db:5432/GGTRX
+      url: jdbc:postgresql://db:5432/GGTRXDB
       username: compose-postgres
       password: compose-postgres
       
