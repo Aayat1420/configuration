@@ -17,8 +17,8 @@ datasourceprop:
     default: 
       driver-class-name: org.postgresql.Driver
       url: jdbc:postgresql://127.0.0.1:5432/test
-      username: compose-postgres
-      password: compose-postgres
+      username: root
+      password: root
       
 WORKFLOW_URL: http://workflow-service/api/execute-workflow
 WORKFLOW_SLEEPTIME: 1000      
